@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LearnMate AI
 
-## Getting Started
+LearnMate AI is an intelligent educational platform designed to enhance the learning experience through AI-powered features and modern web technologies.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Interactive Dashboard**: Track your learning progress, manage courses, and view recent activities
+- **Smart Course Management**: Create custom courses or enroll in platform courses
+- **Document Analysis**: Upload and analyze educational documents
+- **AI-Powered Paraphrase Tool**: Enhance your writing with intelligent paraphrasing
+- **Learning Analytics**: Monitor your progress and study patterns
+- **Responsive Design**: Seamless experience across all devices
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: React Context + Local Storage
+- **Authentication**: Custom Auth Context (Ready for backend integration)
+
+## 📋 Prerequisites
+
+- Node.js 18.0 or later
+- npm or yarn package manager
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/learnmate-ai.git
+   cd learnmate-ai
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                 # Next.js App Router pages
+├── components/          # Reusable UI components
+├── contexts/           # React Context providers
+└── types/              # TypeScript type definitions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔑 Key Features Implementation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Dashboard
+- Overview cards for quick insights
+- Interactive timetable
+- Recent activity tracking
+- Quick action shortcuts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Courses
+- Platform course library
+- Custom course creation
+- Module-based learning structure
+- Progress tracking
 
-## Learn More
+### Documents
+- Document management system
+- Metadata storage
+- Document analysis (placeholder for AI integration)
 
-To learn more about Next.js, take a look at the following resources:
+### Analytics
+- Learning progress metrics
+- Course completion tracking
+- Study time analysis
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔮 Future Enhancements
+
+- Backend API integration
+- AI-powered document analysis
+- Real-time collaboration features
+- Advanced analytics dashboard
+- Social learning features
+- Mobile application
+
+## 👥 Authors
+
+- Your Name - Initial work
+
+## 🙏 Acknowledgments
+
+- Next.js team for the amazing framework
+- React team for the UI library
+- Tailwind CSS for the styling solution
+- All contributors who have helped shape this project
+
+## 📞 Support
+
+For support, please open an issue in the GitHub repository or contact [your-email@example.com].
